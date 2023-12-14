@@ -18,7 +18,9 @@ ResNet50-GeLU(Step Learning rate & Epoch 80): https://danlee.s3.us-east-2.amazon
    https://danlee.s3.us-east-2.amazonaws.com/subsetdata/Subset.zip
 
 ## The steps to run pre-trained models in [Deployment.ipynb](https://github.com/danleezhu/CSCIDeep-Learning-Deployment/blob/main/Deployment.ipynb):
+Before running the code file, create a folder **weights** under the same path.  
 
+Running the code in order:  
 1. Import packages
 2. Load a small data for deployment from AWS S3
 3. Define test data prediction analysis (load saved model weights)
@@ -50,8 +52,11 @@ Receiving objects: 100% (24/24), 234.79 KiB | 3.40 MiB/s, done.
 Resolving deltas: 100% (5/5), done.
 ```
 There will be a new folder under the current directory called: **CSCIDeep-Learning-Deployment**  
-Locate in the new folder, use command ```ls```, the user can see```Deployment.ipynb  README.md```  
-3. **Deployment.ipynb** can be run to perform this project.
+Locate in the new folder, use command ```ls```, the user can see  
+```Deployment.ipynb  README.md```  
+3.The user needs to create a new folder **weights** under current directory using command:  
+```mkdir weights```  
+4. **Deployment.ipynb** can be run end-to-end to perform this project.
 
    
 
