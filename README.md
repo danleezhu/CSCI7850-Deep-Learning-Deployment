@@ -22,15 +22,15 @@ ResNet50-GeLU(Step Learning rate & Epoch 80): https://danlee.s3.us-east-2.amazon
 1. Import packages
 2. Load a small data for deployment from AWS S3
 3. Define test data prediction analysis (load saved model weights)
-4. Define models, load weights, make prediction in order:
-   A. AlexNet
-   B. GoogLeNet
-   C. ResNet50-GeLU
-   D. ResNet50-ReLU
-   E. ResNet50-Leaky_ReLU
-   F. ResNet50-GeLU-Step Learning Rate(Epoch50)
-   G. ResNet50-GeLU-Step Learning Rate(Epoch80)
-5. Overall Comparison
+4. Define models, load weights, make prediction in order:  
+   A. AlexNet  
+   B. GoogLeNet  
+   C. ResNet50-GeLU  
+   D. ResNet50-ReLU  
+   E. ResNet50-Leaky_ReLU  
+   F. ResNet50-GeLU-Step Learning Rate(Epoch50)  
+   G. ResNet50-GeLU-Step Learning Rate(Epoch80)  
+5. Overall Comparison  
 
 After finish these steps, the pre-trained models are loaded and used for predictions successfully.
 
