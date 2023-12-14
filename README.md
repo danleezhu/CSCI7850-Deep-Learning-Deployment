@@ -35,10 +35,11 @@ ResNet50-GeLU(Step Learning rate & Epoch 80): https://danlee.s3.us-east-2.amazon
 After finish these steps, the pre-trained models are loaded and used for predictions successfully.
 
 ## Any user can clone and run the project end-to-end through git clone command in terminal:
+1.
 ```
 git clone https://github.com/danleezhu/CSCIDeep-Learning-Deployment.git
 ```
-It will show:
+2. It will show:
 ```
 Cloning into 'CSCIDeep-Learning-Deployment'...
 remote: Enumerating objects: 24, done.
@@ -48,8 +49,9 @@ remote: Total 24 (delta 5), reused 0 (delta 0), pack-reused 0
 Receiving objects: 100% (24/24), 234.79 KiB | 3.40 MiB/s, done.
 Resolving deltas: 100% (5/5), done.
 ```
-There will be a new folder under the current directory called: 'CSCIDeep-Learning-Deployment'.  Locate in the new folder, use command ```ls```, the user can see```Deployment.ipynb  README.md```  
-**Deployment.ipynb** can be run to perform this project.
+There will be a new folder under the current directory called: **CSCIDeep-Learning-Deployment**  
+Locate in the new folder, use command ```ls```, the user can see```Deployment.ipynb  README.md```  
+3. **Deployment.ipynb** can be run to perform this project.
 
    
 
