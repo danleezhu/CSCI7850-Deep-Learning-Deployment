@@ -6,13 +6,13 @@ This project aims to demonstrate how to directly load the saved model weights th
 ## Saved model weights storage
 ### All pre-trained weights have been uploaded to AWS S3, they can be accessed through the following links:
 
-AlexNet model: [https://danlee.s3.us-east-2.amazonaws.com/alex_weights.pth]
-GoogLeNet model: [https://danlee.s3.us-east-2.amazonaws.com/google_weights.pth]
-ResNet50-GeLU: https://danlee.s3.us-east-2.amazonaws.com/g50clr_weights.pth
-ResNet50-ReLU: https://danlee.s3.us-east-2.amazonaws.com/r_weights.pth
-ResNet50-Leaky_ReLU: https://danlee.s3.us-east-2.amazonaws.com/lr_weights.pth
-ResNet50-GeLU(Step Learning rate & Epoch 50): https://danlee.s3.us-east-2.amazonaws.com/g50_weights.pth
-ResNet50-GeLU(Step Learning rate & Epoch 80): https://danlee.s3.us-east-2.amazonaws.com/g80_weights.pth
+AlexNet model: https://danlee.s3.us-east-2.amazonaws.com/alex_weights.pth  
+GoogLeNet model: https://danlee.s3.us-east-2.amazonaws.com/google_weights.pth  
+ResNet50-GeLU: https://danlee.s3.us-east-2.amazonaws.com/g50clr_weights.pth  
+ResNet50-ReLU: https://danlee.s3.us-east-2.amazonaws.com/r_weights.pth  
+ResNet50-Leaky_ReLU: https://danlee.s3.us-east-2.amazonaws.com/lr_weights.pth  
+ResNet50-GeLU(Step Learning rate & Epoch 50): https://danlee.s3.us-east-2.amazonaws.com/g50_weights.pth  
+ResNet50-GeLU(Step Learning rate & Epoch 80): https://danlee.s3.us-east-2.amazonaws.com/g80_weights.pth  
 
 ### As well, aims for simple deployment, the project provides a small data with 120 images inside which can be imported from:
 https://danlee.s3.us-east-2.amazonaws.com/subsetdata/Subset.zip
