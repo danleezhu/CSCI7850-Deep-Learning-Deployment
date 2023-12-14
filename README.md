@@ -15,7 +15,7 @@ ResNet50-GeLU(Step Learning rate & Epoch 50): https://danlee.s3.us-east-2.amazon
 ResNet50-GeLU(Step Learning rate & Epoch 80): https://danlee.s3.us-east-2.amazonaws.com/g80_weights.pth  
 
 ### As well, aims for simple deployment, the project provides a small data with 120 images inside which can be imported from:
-https://danlee.s3.us-east-2.amazonaws.com/subsetdata/Subset.zip
+   https://danlee.s3.us-east-2.amazonaws.com/subsetdata/Subset.zip
 
 ## The steps to run pre-trained models in [Deployment.ipynb](https://github.com/danleezhu/CSCIDeep-Learning-Deployment/blob/main/Deployment.ipynb):
 
@@ -35,3 +35,6 @@ https://danlee.s3.us-east-2.amazonaws.com/subsetdata/Subset.zip
 After finish these steps, the pre-trained models are loaded and used for predictions successfully.
 
 ## Any user can clone and run the project end-to-end through git clone command:
+'''
+   git clone https://github.com/danleezhu/CSCIDeep-Learning-Deployment.git
+'''
