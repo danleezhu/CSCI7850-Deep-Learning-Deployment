@@ -34,7 +34,7 @@ ResNet50-GeLU(Step Learning rate & Epoch 80): https://danlee.s3.us-east-2.amazon
 
 After finish these steps, the pre-trained models are loaded and used for predictions successfully.
 
-## Any user can clone and run the project end-to-end through ```git clone```:
+## Any user can clone and run the project end-to-end through ```git clone```:  
 1. Input this command in terminal
 ```
 git clone https://github.com/danleezhu/CSCIDeep-Learning-Deployment.git
